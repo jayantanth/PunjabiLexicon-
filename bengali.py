@@ -10,8 +10,8 @@ def return_params(query, attribute):
 f = open('word_list.txt', 'w')
 
 
-
-base_url = "http://dsalsrv02.uchicago.edu/cgi-bin/philologic/getobject.pl?p."
+base_url = "http://dsalsrv02.uchicago.edu/cgi-bin/app/biswas-bangala_query.py?p."
+#base_url = "http://dsalsrv02.uchicago.edu/cgi-bin/philologic/getobject.pl?p."
 
 for letter in range(0,4):
     for index in range (0,400):
